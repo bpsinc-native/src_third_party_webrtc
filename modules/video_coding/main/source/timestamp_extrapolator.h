@@ -38,7 +38,7 @@ private:
     int32_t         _id;
     Clock*                _clock;
     double                _w[2];
-    double                _P[2][2];
+    double                _p[2][2];
     int64_t         _startMs;
     int64_t         _prevMs;
     uint32_t        _firstTimestamp;
@@ -55,7 +55,7 @@ private:
     const double        _alarmThreshold;
     const double        _accDrift;
     const double        _accMaxError;
-    const double        _P11;
+    const double        _p11;
 };
 
 }  // namespace webrtc
