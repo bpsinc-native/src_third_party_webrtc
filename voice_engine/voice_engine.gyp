@@ -268,7 +268,7 @@
                 'Common_Base': {
                   'msvs_configuration_attributes': {
                     'conditions': [
-                      ['component=="shared_library"', {
+                      ['component_build==1', {
                         'UseOfMFC': '2',  # Shared DLL
                       },{
                         'UseOfMFC': '1',  # Static
